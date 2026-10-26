@@ -1,0 +1,24 @@
+# Git Branch & Commit History
+
+Here is the visual diagram illustrating your current commit history and branch pointers for the repository.
+
+![Git Branch History](C:/Users/Admin/.gemini/antigravity-ide/brain/0b3518be-c9b6-40ff-a1ac-86ae967d425b/git_branch_history_1792901887930.jpg)
+
+---
+
+### Commit Graph Overview
+
+```mermaid
+gitGraph
+   commit id: "92ebeb1 (initial commit)"
+   commit id: "c83ccb8 (added link to Git docs.)"
+   commit id: "f1863ca (Revert: added link to Git docs.)" tag: "HEAD -> master"
+```
+
+### Commit Details
+
+| Commit Hash | Message | Pointer / Ref | Description |
+| :--- | :--- | :--- | :--- |
+| `f1863ca` | `Revert "added link to Git docs."` | **`HEAD -> master`** | Reverts the changes introduced by commit `c83ccb8` |
+| `c83ccb8` | `added link to Git docs.` | | Added documentation reference |
+| `92ebeb1` | `initial commit` | | Initial repository commit |
